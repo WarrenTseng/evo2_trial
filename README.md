@@ -35,7 +35,7 @@ Before running the code, ensure the following hardware and software requirements
 
 3. Run the Python script
    ```bash
-  python trial.py
+   python trial.py
    ```
 
 ##  Reference
