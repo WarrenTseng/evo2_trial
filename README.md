@@ -17,31 +17,8 @@ Before running the code, ensure the following hardware and software requirements
 
 ## Quick Start 
 
-1. **Pull the Docker image**  
-   Make sure you have Docker installed, then pull the required container image:
-
-   ```bash
-   docker pull warrents/evo2_trial:latest
-   ```
-
-2. Run the Docker container
-   ```bash
-   docker run --gpus all -it --rm \
-   --shm-size 2g \
-   -p 8888:8888 \
-   -w /workspace/evo2 \
-   warrents/evo2_trial:latest \
-   ```
-
-3. Activate the env:
-   ```bash
-   conda activate evo2
-   ```
-
-4. Run the Python script
-   ```bash
-   python trial.py
-   ```
+**Following the instructions in the notebook**  
+   
 
 ##  Reference
 This project is based on the Evo2 model developed by the Arc Institute.
