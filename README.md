@@ -33,7 +33,12 @@ Before running the code, ensure the following hardware and software requirements
    warrents/evo2_trial:latest \
    ```
 
-3. Run the Python script
+3. Activate the env:
+   ```bash
+   conda activate evo2
+   ```
+
+4. Run the Python script
    ```bash
    python trial.py
    ```
