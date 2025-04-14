@@ -25,13 +25,13 @@ Before running the code, ensure the following hardware and software requirements
    ```
 
 2. Run the Docker container
-  ```bash
+   ```bash
    docker run --gpus all -it --rm \
-  --shm-size 2g \
-  -p 8888:8888 \
-  -w /workspace/evo2 \
-  warrents/evo2_trial:latest \
-  ```
+   --shm-size 2g \
+   -p 8888:8888 \
+   -w /workspace/evo2 \
+   warrents/evo2_trial:latest \
+   ```
 
 3. Run the Python script
    ```bash
